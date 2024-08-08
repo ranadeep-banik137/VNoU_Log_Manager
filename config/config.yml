@@ -2,25 +2,25 @@ clear_file_after_transfer: True
 
 app_logs:
   src:
-    path: ''
+    path: 'D:/Projects/VNoU-Identifier/logs/'
     filename: 'VNoU-app-logs.log'
   dest:
-    parent_dir_path: 'logs/'
+    parent_dir_path: 'D:/Projects/VNoU_Search_Tool/files/logs'
     filename: 'VNoU-app-logs.log'
 
 mail_logs:
   src:
-    path: ''
+    path: 'D:/Projects/VNoU-Identifier/logs/'
     filename: 'VNoU-email-logs.log'
   dest:
-    parent_dir_path: 'logs/'
+    parent_dir_path: 'D:/Projects/VNoU_Search_Tool/files/logs'
     filename: 'VNoU-email-logs.log'
 
 unknown_logs:
   src:
-    path: ''
+    path: 'D:/Projects/VNoU-Identifier/logs/'
     filename: 'VNoU-unknown-logs.log'
   dest:
-    parent_dir_path: 'logs/'
+    parent_dir_path: 'D:/Projects/VNoU_Search_Tool/files/logs'
     filename: 'VNoU-unknown-logs.log'
 
